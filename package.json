@@ -10,7 +10,7 @@
   "jsdelivr": "dist/tf-converter.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tensorflow/tfjs-converter.git"
+    "url": "https://github.com/LuizFernandoCabral/tfjs-converter.git"
   },
   "license": "Apache-2.0",
   "peerDependencies": {
