@@ -228,7 +228,7 @@ export class FrozenModel implements tfc.InferenceModel {
       outputs?: string|string[]): Promise<tfc.Tensor|tfc.Tensor[]> {
     if (!(this.executor.isControlFlowModel &&
           this.executor.isDynamicShapeModel)) {
-      throw new Error(
+      console.log(
           'The model does not contain control flow or dynamic shape ops, ' +
           'please use execute method for better performance.');
     }
